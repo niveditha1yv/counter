@@ -19,8 +19,6 @@ decrement = () =>{
   }else{
      this.setState({count: count-1});
   }
-  
-
 }
 
 render(){
