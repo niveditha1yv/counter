@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Counter from './Counter';
+import Divider from './Divider'
 import './style.css';
 
 class App extends React.Component{
@@ -8,6 +9,9 @@ class App extends React.Component{
     return(
       <>
       <Counter />
+      <Divider/>
+      <Counter />
+      
       </>
     )
   }
